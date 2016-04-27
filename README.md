@@ -1,6 +1,9 @@
 # Vargas_CSCI2270_FinalProject
+
 Ruben Vargas
+
 CSCI 2270 Project
+
 SUMMARY:
 
   For this project, I created a simple "choose your own adventure" style game. This project made use of hash tables and linked lists to store information. At first, the user will be greeted by a "guide" to introduce them to the game. The user will be presented with a menu with each option performing a different task. One of the options displayed will be of an inventory of items (shown through a hash table). The items listed are important as you go through the journey. I made use of linked lists by incorporating them as a way to go from one destination to another. The goal of the game is to successfully reach the end and go through all the given obstacles. 
