@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1461743726 source:/home/user/Desktop/R_Vargas_Project/R_Vargas_Game/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	<sstream>
+	<queue>
+	<limits.h>
+	<algorithm>
+	"Game.h"
+
+1461733767 source:/home/user/Desktop/R_Vargas_Project/R_Vargas_Game/src/Game.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	<sstream>
+	<queue>
+	<limits.h>
+	<algorithm>
+	"Game.h"
+
+1461642979 /home/user/Desktop/R_Vargas_Project/R_Vargas_Game/include/Game.h
+	<string>
+	<vector>
+	<queue>
+	<limits.h>
+	<algorithm>
+
