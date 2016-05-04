@@ -93,7 +93,7 @@ int main(int argc, char *argv[])
                     cout<<"You can check your item inventory by pressing option '5'."<<endl;
                     cout<<"*************************************************************************"<<endl;
                 }
-                else if (title=="Sword"||"Shield"||"Fire-Amulet"||"Potion"||"Bomb"||"Bazooka"||"Master-Sword"||"Bow-and-Arrow"){
+                else if (title=="Sword" || title=="Shield"|| title=="Fire-Amulet"||title=="Potion"||title=="Bomb"||title=="Bazooka"||title=="Master-Sword"||title=="Bow-and-Arrow"){
                         game.insertItem(title);
                         cout<<"*************************************************************************"<<endl;
                         cout<<"Geno: You got an item!"<<endl;
