@@ -131,8 +131,8 @@ void Game::addCity(string previousCity, string cityName){
     }
 }
 void Game::buildNetwork(){
-    string cityArray[6] = {"Hyrule", "Coruscant", "Paraiso Verde", "Alberia", "El Infierno", "Secret Location"};
-    int numCities = 6;
+    string cityArray[7] = {"Hyrule", "Coruscant", "Paraiso Verde", "Alberia", "El Infierno", "Secret Location", "Main Boss"};
+    int numCities = 7;
     City *cityAdded;
     City *currentCity;
     for(int i = 0; i < numCities; i++){
