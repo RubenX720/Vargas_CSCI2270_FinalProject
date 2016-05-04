@@ -596,6 +596,21 @@ int main(int argc, char *argv[])
                                 cout<<"*************************************************************************"<<endl;
                         }
                 }
+                if(city1=="Final Boss"){
+                    cout<<"You have made it to the final boss! It appears that he is the strongest character in the game"<<endl;
+                    cout<<"You must use the Master Sword to defeat him and regain peace among our people!"<<endl;
+                    cout<<"Use Item:"<<endl;
+                    getline(cin, title);
+                    if(title == "Master Sword" || "master sword" || "Master sword" || "master Sword")
+                    {
+                        game.deleteItem(title);
+                        cout<<"You did it! But at the expense of your Master Sword.. The sword broke in half as you took the Final Boss' life. Now peace can be returned to the people."
+                    }
+                    else
+                    {
+                        cout<<"You must use the master sword!"<<endl;
+                    }
+                }
                 break;
             }
             case 5:
